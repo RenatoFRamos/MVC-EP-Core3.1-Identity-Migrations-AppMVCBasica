@@ -1,0 +1,10 @@
+Criação da Aplicação
+update-database -verbose (Criação das tabelas Identity, migrations já vem incorporada)
+Criação das Models com utilização das Data Annotations (definir tamanho dos campos no banco)
+add-migration
+update-database -verbose (Criação das tabelas das MOdels)
+
+Utilização de Scaffold para criação de controller com views
+
+//Inserir em StartUp.cs - Atualização do cshtml com a aplicação rodando
+services.AddRazorPages().AddRazorRuntimeCompilation();
